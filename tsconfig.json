@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2021",
+            "dom"
+          ],
+         "module": "commonjs",
+          "outDir": "./dist/",
+          "allowJs": true,
+          "checkJs": false,
+          "noEmit": true,
+          "moduleResolution": "node",
+          "target": "es2021",
+          "strictNullChecks": false,
+          "strictBindCallApply": true,
+          "allowSyntheticDefaultImports": true,
+          "useUnknownInCatchVariables": false,
+          "baseUrl": ".",
+          "resolveJsonModule": true,
+          "removeComments": true,
+          "experimentalDecorators": true
+      
+        
+    },
+    "include": [
+        "./**/*","src/test/hooks/hooks.ts"
+      ]
+}
